@@ -1,0 +1,20 @@
+playbook: AI Discovery Audit
+category: agency
+sla: 24 hrs
+agent_count: 4
+
+# Agent assignments — populate from Playbooks doc
+agents: []
+  # - name: AgentName
+  #   role: description
+  #   skills: []
+
+quality_gates: []
+  # - checkpoint: name
+  #   criteria: description
+  #   owner: agent_name
+
+escalation:
+  trigger: TODO
+  notify: TODO
+  sla_breach: TODO
